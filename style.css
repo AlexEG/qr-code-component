@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* ==========for comparing ======= */
+  background-image: url(./design/desktop-design.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* ======================= */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lightGray);
+  height: 100vh;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+  --font-s: 15px;
+}
+
+.main-box {
+  /* =====for comparing==== */
+  opacity: .4;
+  /* ============ */
+  background-color: var( --white);
+  width: 22.2em;
+  height:34.5em ;
+  border-radius: 20px;
+}
