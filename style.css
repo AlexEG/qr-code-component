@@ -1,9 +1,16 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  border: none;
+  font-family: 'Outfit', sans-serif;
 }
 
 body {
+  /* ==========for comparing ======= */
+  background-image: url(./design/desktop-design.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* ======================= */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,13 +23,17 @@ body {
   --lightGray: hsl(212, 45%, 89%);
   --grayishBlue: hsl(220, 15%, 55%);
   --darkBlue: hsl(218, 44%, 22%);
-  --font-s: 25px;
+  --font-s: 22px;
 }
 
 .main-box {
+  /* =====for comparing==== */
+  opacity: .4;
+  /* ============ */
   background-color: var(--white);
-  width: 22.2em;
-  height: 34.5em;
+  /* background-color: red; */
+  width: 20em;
+  height: 31em;
   border-radius: 20px;
 }
 
@@ -39,30 +50,32 @@ body {
   align-items: center;
 }
 
-.container2 {
-  height: 35%;
-  text-align: center;
-}
-
 .container1 img {
   width: 90%;
   border-radius: 10px;
 }
 
+.container2 {
+  height: 35%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
 .title {
-  font-family: 'Outfit', sans-serif;
   font-weight: 700;
   font-size: var(--font-s);
   color: var(--darkBlue);
   letter-spacing: -0.1px;
-  margin-top: 5px;
+  margin: 5px 5px 0;
 
 }
 
 .content {
   margin-top: 18px;
-  margin-right: 15px;
-  word-spacing: 1px;
-  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  margin: 18px 10px 0;
   color: var(--grayishBlue);
 }
