@@ -27,10 +27,27 @@ body {
 
 .main-box {
   /* =====for comparing==== */
-  opacity: .4;
+  opacity: .5;
   /* ============ */
   background-color: var( --white);
+  /* background-color: red; */
   width: 22.2em;
   height:34.5em ;
   border-radius: 20px;
 }
+
+.main-box .container1{
+  /* background-color: black; */
+  width: 100%;
+  height:65%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width:90%;
+  border-radius: 10px;
+}
+
