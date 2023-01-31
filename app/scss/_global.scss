@@ -1,34 +1,38 @@
-* {
-  margin: 0;
+//!  R E S E T  !//
+html {
   box-sizing: border-box;
-  border: none;
-  font-family: 'Outfit', sans-serif;
+  font-size: 100%;
 }
 
-body {
+* {
+  margin: 0;
+  border: none;
+}
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+}
+//!  R E S E T [END] !//
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--lightGray);
   height: 100vh;
-}
 
-:root {
-  --white: hsl(0, 0%, 100%);
-  --lightGray: hsl(212, 45%, 89%);
-  --grayishBlue: hsl(220, 15%, 55%);
-  --darkBlue: hsl(218, 44%, 22%);
-  --font-s: 22px;
-}
-
-.main-box {
-
-  background-color: var(--white);
-  
-  width: 20em;
-  height: 31em;
-  border-radius: 20px;
+  // card styles
+  main {
+    background-color: var(--white);
+    width: 20em;
+    height: 31em;
+    border-radius: 20px;
+  }
 }
 
 .container1,
@@ -55,20 +59,18 @@ body {
   padding: 0 20px;
 }
 
-
 .title {
-  font-weight: 700;
-  font-size: var(--font-s);
+  font-weight: var(--fw-title);
+  font-size: var(--fs-title);
   color: var(--darkBlue);
   letter-spacing: -0.1px;
   margin: 5px 5px 0;
-
 }
 
 .content {
   margin-top: 18px;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: var(--fw-content);
+  font-size: var(--fs-content);
   letter-spacing: 0.1px;
   margin: 18px 10px 0;
   color: var(--grayishBlue);
